@@ -49,7 +49,7 @@ while True:
     elif op == "5":
         confirm = js["statewise"][0]["confirmed"]
         re = js["statewise"][0]["recovered"]
-        acti = js[--"statewise"][0]["active"]
+        acti = js["statewise"][0]["active"]
         dead = js["statewise"][0]["deaths"]
         print("Total Confirmed >>",confirm)
         print("Total Recovered >>",re)
